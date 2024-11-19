@@ -18,7 +18,13 @@ public class ProgrammingLanguages {
         programmingLanguages.remove(2);
         System.out.println(programmingLanguages.size());
         programmingLanguages.sort(Comparator.naturalOrder());
+        System.out.println(programmingLanguages);
         programmingLanguages.sort(Comparator.reverseOrder());
+        System.out.println(programmingLanguages);
+        boolean flag = programmingLanguages.contains("Java");
+        boolean result = programmingLanguages.isEmpty();
+        System.out.println(flag);
+        System.out.println(result);
     }
 
 }
